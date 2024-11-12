@@ -5,6 +5,9 @@ Este projeto é uma aplicação Java baseada no framework Spring Boot, usando o 
 ## Configurações
 
 No ficheiro docker-compose-yml têm de alterar a linha de volume para um directório vosso.
+
 Depois fazer docker-compose up -d
+
 Abrir o pgadmin na respetiva porta e entrar com os respetivos dados de autenticação
+
 Registar o server
