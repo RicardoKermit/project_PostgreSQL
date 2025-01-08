@@ -13,7 +13,8 @@ import lombok.NoArgsConstructor;
 @Table(name = "brands")
 public class Brand {
 
-    @Id@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     private String description;
